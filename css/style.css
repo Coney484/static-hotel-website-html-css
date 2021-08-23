@@ -60,6 +60,7 @@
 
 .l-heading {
   font-size: 40px;
+  line-height: 1.2;
 }
 
 /* Padding */
@@ -106,7 +107,7 @@ a {
   width: 100%;
 }
 
-#navbar h1 {
+#navbar .logo {
   float: left;
   padding-top: 20px;
 }
@@ -162,7 +163,7 @@ a {
 /* Home Info */
 
 #home-info {
-  height: 400px;
+  height: 450px;
 }
 
 #home-info .info-img {
@@ -182,6 +183,7 @@ a {
 }
 #home-info .info-content p {
   padding-bottom: 30px;
+  font: justify;
 }
 
 /* Features Section */
@@ -221,7 +223,7 @@ a {
 /* Testimonials */
 
 #testimonials {
-  height: 600px;
+  height: 100%;
   background: url(../img/test-bg.jpg) no-repeat center center/cover;
   padding-top: 40px;
 }
